@@ -92,11 +92,196 @@
 	.header_content button {
 		margin-top: 30px;
 	}
+
+	/*blog start*/
+	.blog {
+		padding: 50px 0;
+	}
+
+	.blog_title {
+		margin-top: 30px;
+	}
+
+	.blog_content {
+		margin-bottom: 20px !important;
+	}
+	
+	/*team start*/
+	.team {
+	    padding: 50px 0;
+	}
+
+	.team_title {
+		margin-top: 30px;
+	}
+
+
+	/*testimonial start*/
+	.testimonial {
+		padding: 50px 0;
+	}
+	
+
+	/*blog start*/
+	.blog {
+	    padding: 45px 0;
+	}
+
+	.blog_title {
+		margin-bottom: 30px;
+	}
+
+	.custom_body {
+	    padding: 16px;
+	}
+
+	.card-text {
+	    font-size: 13px;
+	    line-height: 1.6;
+	}
+
+	/*contact start*/
+	.contact {
+	    padding: 45px 0 30px;
+	}
+
+	.contact_title {
+		margin-bottom: 30px;
+	}
+
+	.submit_btn {
+	    margin-top: 25px;
+	    font-size: 16px;
+	    padding-left: 12px;
+	    padding-right: 12px;
+	}
+
+	/*footer start*/
+	footer {
+	    padding: 30px 0 10px;
+	}
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	
+	/*header start*/
+	.header_text {
+	    padding: 80px 0;
+	}
+
+	.header_content h1 {
+	    font-size: 50px;
+	}
+
+	.header_content p {
+	    margin-top: 30px;
+	}
+
+	.header_content button {
+	    font-size: 20px;
+	    padding: 10px 20px;
+	    margin-top: 30px;
+	}
+
+	/*about start*/
+	.about {
+	    padding: 50px 0;
+	}
+
+	.about_title {
+	    margin-bottom: 30px;
+	}
+
+	.details h3 {
+	    margin-bottom: 15px;
+	}
+
+	.details p {
+	    margin-bottom: 15px;
+	}
+
+	.details button {
+	    font-size: 16px;
+	    padding: 10px;
+	}
+
+	/*know more start*/
+	.know_more {
+		padding: 80px 0;
+	}
+
+	/*services start*/
+	.services {
+	    padding: 50px 0;
+	}
+
+	.service_title {
+	    margin-bottom: 30px;
+	}
+
+	/*skill start*/
+	.skill {
+	    padding: 50px 0;
+	}
+
+	.skill_title {
+	    margin-bottom: 30px;
+	}
+
+	/*client start*/
+	.client {
+		padding: 50px 0;
+	}
+
+	/*portfolio start*/
+	.portfolio {
+	    padding: 50px 0;
+	}
+
+	.portfolio_title {
+	    margin-bottom: 20px;
+	}
+
+	/*team start*/
+	.team {
+	    padding: 50px 0;
+	}
+
+	.team_title {
+	    margin-bottom: 30px;
+	}
+
+	/*testimonial start*/
+	.testimonial {
+		padding: 50px 0;
+	}
+
+	/*blog start*/
+	.blog {
+		padding: 50px 0;
+	}
+
+	.blog_title {
+	    margin-bottom: 30px;
+	}
+
+	/*contact start*/
+	.contact {
+		padding: 50px 0;
+	}
+
+	.contact_title {
+	    margin-bottom: 30px;
+	}
+
+	/*footer start*/
+	footer {
+	    padding: 30px 0 10px;
+	}
+
+
+
+
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
