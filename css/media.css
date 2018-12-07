@@ -59,6 +59,19 @@
 	.header_content button {
 		margin-top: 30px;
 	}
+
+	/*blog start*/
+	.blog {
+		padding: 20px 0;
+	}
+
+	.common_title {
+	    margin-bottom: 20px;
+	}
+
+	.blog_content {
+		margin-bottom: 20px;
+	}
 }	
 
 /*Medium devices (tablets, 768px and up)*/
@@ -103,7 +116,7 @@
 	}
 
 	.blog_content {
-		margin-bottom: 20px !important;
+		margin-bottom: 20px;
 	}
 	
 	/*team start*/
