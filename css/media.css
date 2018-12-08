@@ -211,8 +211,14 @@
 		font-size: 15px;
 	}
 
+
+	.header_text {
+	    padding: 0px 0;
+	    color: #fff;
+	}
+
 	.header_content {
-	    padding: 90px 0;
+	    padding: 60px 0;
 	}
 
 	.header_content h1 {
@@ -220,16 +226,111 @@
 	}
 
 	.header_content p {
-		margin-top: 30px;
+	    margin-top: 25px;
 	}
 
 	.header_content button {
-		margin-top: 30px;
+	    margin-top: 10px;
+	    font-size: 16px;
+	    padding: 10px 15px;
+	}
+
+	/*about start*/
+	.about {
+	    padding: 40px 0;
+	}
+
+	.details {
+		margin-top: 20px;
+	}
+
+	.details h3 {
+	    font-family: 'Raleway', sans-serif;
+	    font-size: 24px;
+	    font-weight: 600;
+	    color: #1e1e1e;
+	    margin-bottom: 20px;
+	}
+
+	.details p {
+	    margin-bottom: 16px;
+	}
+
+	.details button {
+	    padding: 8px;
+	    font-size: 14px;	    
+	}
+
+	/*know more start*/
+	.know_more {
+	    padding: 60px 0;
+	}
+
+	.know_more_content h1 {
+	    font-size: 30px;
+	    margin-bottom: 20px;
+	}
+
+	/*service start*/
+	.services {
+	    padding: 40px 0;
+	}
+
+	.service_content i {
+	    font-size: 36px;
+	}
+
+	/*skill start*/
+	.skill {
+	    padding: 40px 0;
+	}
+
+	.skill_info p {
+	    margin-top: 15px;
+	    margin-bottom: 15px;
+	}
+
+	.skill_progress p {
+	    margin-top: 15px;
+	    margin-bottom: 15px;
+	}
+
+	/*client start*/
+	.client {
+	    padding: 40px 0;
+	}
+
+	.single_client {
+	    margin-bottom: 20px;
+	}
+
+	.single_client i {
+	    font-size: 30px;
+	    padding: 12px 10px;
+	}
+
+	/*portfolio start*/
+	.portfolio {
+	    padding: 40px 0;
+	}
+
+	/*team start*/
+	.team {
+	    padding: 45px 0 25px;
+	}
+
+	.single_team {
+		margin-bottom: 20px;
+	}
+
+	/*testimonial start*/
+	.testimonial {
+	    padding: 40px 0;
 	}
 
 	/*blog start*/
 	.blog {
-		padding: 20px 0;
+		padding: 40px 0;
 	}
 
 	.common_title {
@@ -239,11 +340,21 @@
 	.blog_content {
 		margin-bottom: 20px;
 	}
+
+	/*contact start*/
+	.contact {
+	    padding: 40px 0 30px;
+	}
+
+	.contact_title {
+		margin-bottom: 25px;
+	}
 }	
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
 	/*header start*/
+	
 	.custom_nav ul {
 		float: right; 
 		margin-right: 0;
@@ -257,48 +368,98 @@
 		font-size: 15px;
 	}
 
-	.header_content {
-	    padding: 100px 0;
-	}
-
 	.header_content h1 {
 		font-size: 40px;
 	}
 
+	.header_text {
+	    padding: 0;
+	}
+
+	.header_content {
+	    padding: 80px 0;
+	}
+
 	.header_content p {
-		margin-top: 30px;
+	    margin-top: 20px;
 	}
 
 	.header_content button {
-		margin-top: 30px;
+	    margin-top: 15px;
+	    padding: 10px 20px;
 	}
 
-	/*blog start*/
-	.blog {
-		padding: 50px 0;
+
+	/*about start*/
+	.about {
+	    padding: 45px 0;
 	}
 
-	.blog_title {
-		margin-top: 30px;
+	.about_title {
+		margin-top: 0 !important;
+		margin-bottom: 25px !important;
 	}
 
-	.blog_content {
-		margin-bottom: 20px;
+	/*know more start*/
+	.know_more {
+	    padding: 60px 0;
 	}
 	
+	/*services start*/
+	.services {
+	    padding: 45px 0;
+	}
+
+	.service_title {
+		margin-top: 0;
+		margin-bottom: 25px;
+	}
+
+	.service_content h3 {
+	    font-size: 23px;
+	}
+
+	/*skill start*/
+	.skill {
+	    padding: 45px 0;
+	}
+
+
+	/*client start*/
+	.client {
+	    padding: 45px 0;
+	}
+
+	.single_client {
+	    margin-bottom: 20px;
+	}
+
+	/*portfolio start*/
+	.portfolio {
+	    padding: 45px 0;
+	}
+
+	.portfolio_title {
+		margin-bottom: 25px;
+	}
+
+
 	/*team start*/
 	.team {
-	    padding: 50px 0;
+	    padding: 45px 0;
 	}
 
 	.team_title {
-		margin-top: 30px;
+		margin-top: 0;
+		margin-bottom: 25px;
 	}
+
+
 
 
 	/*testimonial start*/
 	.testimonial {
-		padding: 50px 0;
+		padding: 45px 0;
 	}
 	
 
@@ -308,11 +469,21 @@
 	}
 
 	.blog_title {
-		margin-bottom: 30px;
+		margin-top: 0;
+		margin-bottom: 25px;
 	}
 
 	.custom_body {
 	    padding: 16px;
+	}
+
+	.custom_body h5 {
+	    font-size: 17px;
+	    margin-bottom: 6px !important;
+	}
+
+	.custom_body p {
+		margin-bottom: 6px !important;
 	}
 
 	.card-text {
@@ -326,7 +497,7 @@
 	}
 
 	.contact_title {
-		margin-bottom: 30px;
+		margin-bottom: 25px;
 	}
 
 	.submit_btn {

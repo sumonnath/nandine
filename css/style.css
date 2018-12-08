@@ -67,6 +67,10 @@ header {
 	margin-right: 0;
 }
 
+.navbar-toggler {
+    border: 1px solid #ff0000 !important;
+}
+
 
 
 /*header end*/
