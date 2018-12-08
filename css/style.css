@@ -679,10 +679,9 @@ header {
 footer {
 	background-color: #121111;
 	padding: 40px 0 20px;
+	color: #fff;
 }
 
-.footer_left {}
-.footer_left ul {}
 .footer_left ul li {
 	margin-right: 15px !important;
 }
@@ -700,6 +699,10 @@ footer {
 .footer_right p {
 	font-size: 14px;
 	font-weight: 600;
+	color: #fff;
+}
+
+.copyright p {
 	color: #fff;
 }
 /*footer end*/
