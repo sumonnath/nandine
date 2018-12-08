@@ -105,10 +105,13 @@ header {
 	color: #fff;
 	transition: 0.3s;
 	border: none;
+	border: 2px solid #ff0000;
+	transition: .3s;
 }
 
 .header_content button:hover {
-	background-color: #e74c3c;
+	background-color: #fff;
+	color: #ff0000;
 }
 
 

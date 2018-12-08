@@ -167,7 +167,8 @@
 		overflow: hidden;
 	}
 
-	.footer_left {
+	.footer_left ul {
+	    margin-left: 15px;
 	}
 
 	.footer_left ul li {
@@ -175,21 +176,11 @@
 	}
 
 	.footer_left ul li a i {
-		font-size: 16px;
+		font-size: 20px;
 	}
 
-	.footer_right {
-		text-align: center;
-		float: left;
-	}
-
-	.footer_right p {
-		text-align: center;
-	}
-
-	.fleft {
-		float: left !important;
-		text-align: center;
+	.copyright {
+		color: #fff;
 	}
 
 }
@@ -238,6 +229,18 @@
 	/*about start*/
 	.about {
 	    padding: 40px 0;
+	}
+
+	.overlay h3 {
+	    font-size: 20px;
+	    margin-bottom: 5px;
+	}
+
+	.social_media ul li a i {
+	    font-size: 16px;
+	    width: 35px;
+	    height: 35px;
+	    line-height: 2.1;
 	}
 
 	.details {
@@ -398,6 +401,19 @@
 	.about_title {
 		margin-top: 0 !important;
 		margin-bottom: 25px !important;
+	}
+
+	.details h3 {
+	    margin-bottom: 15px;
+	}
+
+	.details p {
+	    margin-bottom: 15px;
+	}
+
+	.details button {
+	    font-size: 14px;
+	    padding: 10px;
 	}
 
 	/*know more start*/
