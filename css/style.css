@@ -605,6 +605,11 @@ header {
 	background-color: #252525;
 	border-radius: 0;
 	font-style: italic;
+	border: 0;
+}
+
+.custom_body button:hover {
+	background-color: #ff0000;
 }
 /*blog end*/
 
