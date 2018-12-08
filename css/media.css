@@ -8,16 +8,20 @@
 		font-size: 15px;
 	}
 
+	.header_text {
+	    padding: 0;
+	}
+
 	.header_content {
-	    padding: 60px 0;
+	    padding: 40px 0;
 	}
 
 	.header_content h1 {
-		font-size: 30px;
+	    font-size: 22px;
 	}
 
 	.header_content p {
-		margin-top: 16px;
+		margin-top: 14px;
 	}
 
 	.header_content button {
