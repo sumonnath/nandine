@@ -442,11 +442,13 @@ header {
 	background: transparent;
 	border: 0;
 	color: #3c3c3c;
+	cursor: pointer;
 }
 
 .portfolio_menu button:hover {
 	color: #ff0000;
 }
+
 /*portfolio end*/
 
 /*team start*/
